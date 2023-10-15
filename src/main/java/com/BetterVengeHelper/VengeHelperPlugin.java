@@ -127,8 +127,6 @@ public class VengeHelperPlugin extends Plugin
 		Matcher matcher = SPELL_TARGET_PATTERN.matcher(event.getMenuTarget());
 		if (!matcher.matches())
 		{
-			System.out.println(event.getMenuTarget());
-
 			return;
 		}
 		Widget widget = event.getWidget();
